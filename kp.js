@@ -5,13 +5,7 @@ k.addHeader('Gauge','15');
 k.addHeader('X-Presser-Mode','auto');
 k.addHeader('Position','Center');
 
-let testPattern = [
-	[0,0,0,1,0,0,0,1],
-	[0,0,0,0,0,0,1,1],
-	[0,0,0,0,0,0,1,1],
-	[0,0,0,0,0,1,1,1],
-	[0,0,0,0,1,1,1,1],
-]
+testPattern = require('./pattern');
 
 let startingRow = [0,0,0,0,0,0,0,0];
 
