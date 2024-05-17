@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 var knitout = require('knitout');
 k = new knitout.Writer({carriers:["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]});
 k.addHeader('Machine','SWGXYZ');
+=======
+var knitout = require('../../knitout-frontend-js/knitout');
+k = new knitout.Writer({carriers:["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]});
+blk.addHeader('Machine','SWGXYZ');
+>>>>>>> 049d95471fc3631e9225b28e6c21432aad497180
 k.addHeader('Gauge','15');
 k.addHeader('X-Presser-Mode','auto');
 k.addHeader('Position','Center');
